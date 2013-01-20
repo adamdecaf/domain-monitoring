@@ -1,6 +1,6 @@
 package org.decaf.domains
 
-xobject Boot {
+object Boot {
 
   def main(args: Array[String]) {
 
