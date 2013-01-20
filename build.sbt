@@ -5,9 +5,7 @@ organization := "org.decaf"
 
 scalaVersion := "2.9.2"
 
-libraryDependencies ++= Seq(
-  "org.apache.commons" % "commons-email" % "1.2",
-  "org.specs2" %% "specs2" % "1.9" % "test")
+libraryDependencies ++= Seq("org.specs2" %% "specs2" % "1.9" % "test")
 
 credentials += Credentials(Path.userHome / ".ivy2" / ".credentials")
 
