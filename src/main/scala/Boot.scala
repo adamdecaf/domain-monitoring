@@ -29,7 +29,7 @@ object Boot {
     val client = new SimpleEmail{}
     val toAddress = asJavaCollection(List(new InternetAddress("ashannon1000@gmail.com")))
 
-    client.setHostName("ashannon.us")
+    client.setHostName("nomq.net")
     client.setTo(toAddress)
     client.setFrom("server@ashannon.us")
     client.setSubject("[Domains] Registration Status")
