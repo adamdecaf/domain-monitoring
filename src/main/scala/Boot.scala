@@ -15,7 +15,7 @@ object Boot {
     sendEmail(domainStatuses)
 
     println("Done checking")
-    sys.exit("")
+    sys.exit(0)
   }
 
   private[this] lazy val whoisClient = new DomainMonitor()
